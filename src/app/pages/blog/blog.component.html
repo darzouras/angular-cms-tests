@@ -1,0 +1,5 @@
+<div *ngFor="let post of posts" class="blog-post">
+  <h1>{{post.title}}</h1>
+  <div class="blog-posted-by">Posted by {{post.author.first_name}} {{post.author.last_name}}</div>
+  <div [innerHTML]="post.body" class="blog-post-body"></div>
+</div>

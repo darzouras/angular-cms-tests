@@ -1,0 +1,14 @@
+#page-container {
+    position: relative;
+}
+
+main {
+    margin-top: 50px;
+}
+
+@media (min-width:900px) {
+    main {
+        margin-top: 0;
+        margin-left: 175px;
+    }
+}

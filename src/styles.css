@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    font-family: 'courier new', sans-serif;
+    font-weight: bold;
+    color: #AA7271;
+}
+
+img {
+    max-width: 100%;
+}
